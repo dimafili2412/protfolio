@@ -19,6 +19,7 @@ const Divider = styled.div`
 const Title = styled.h1`
   font-family: ${({ theme }) => theme.fonts.header};
   font-weight: 700;
+  white-space: nowrap;
 `;
 
 const PageTitle = ({ children }) => {
